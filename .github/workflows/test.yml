@@ -20,7 +20,6 @@ jobs:
         uses: actions/setup-node@v4
         id: setup-node
         with:
-          node-version-file: ".nvmrc"
           check-latest: true
           cache: "npm"
           cache-dependency-path: "**/package-lock.json"
